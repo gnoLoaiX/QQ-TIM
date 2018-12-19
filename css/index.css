@@ -1,0 +1,65 @@
+/*
+
+1、css 要做的事情又两大块
+*/
+/*=======================reset css============================*/
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-size: 14px;
+    font-family: "Microsoft YaHei", sans-serif;
+    color: #333333;
+}
+ul {
+    list-style: none;
+} 
+a {
+    text-decoration: none;
+    color: #333;
+}
+/*=======================model css============================*/
+/*搭建css结构*/
+/*.qq_nav {}*/
+/*.qq_banner {}*/
+/*.qq_sound {}*/
+/*.qq_file {}*/
+/*.qq_interest {}*/
+/*.qq_footer {}*/
+
+/*.qq_nav {}*/
+/*.qq_nav .wrapper {}*/
+/*.qq_nav .wrapper .logo {}*/
+/*.qq_nav .wrapper .nav {}*/
+/*.qq_nav .wrapper .other {}*/
+/*.qq_nav .wrapper .register {}*/
+
+.qq_nav {
+    height: 150px;
+    background: url("../images/nav_bg.png") repeat-x;
+}
+.qq_nav .wrapper {
+    height: 75px;
+    width: 1080px;
+    margin: 0 auto;
+    background: #ccc;
+}
+.qq_nav .wrapper .logo {
+    width: 100px;
+    height: 75px;
+    background: url("../images/nav_brand.png") no-repeat center;
+    /*因为是行内元素 所以要转换*/
+    display: block;
+    /*float: left;*/
+}
+.qq_nav .wrapper .nav {}
+.qq_nav .wrapper .other {}
+.qq_nav .wrapper .register {}
+
+.qq_banner {}
+.qq_sound {}
+.qq_file {}
+.qq_interest {}
+.qq_footer {}
+
