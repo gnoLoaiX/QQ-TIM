@@ -1,6 +1,6 @@
-###  QQ-TIM
+# QQ-TIM
 
-##### Stellar插件
+### Stellar插件
 - 描述
     + 视差滚动（Parallax Scrolling）指网页滚动过程中，
       多层次的元素进行不同程度的移动，视觉上形成立体运动效果的网页展示技术
