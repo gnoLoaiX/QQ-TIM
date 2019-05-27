@@ -1,4 +1,5 @@
 # QQ-TIM
+预览地址：http://htmlpreview.github.io/?https://github.com/gnoLoaiX/QQ-TIM/blob/master/index.html
 
 ### Stellar插件
 - 描述
