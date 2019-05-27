@@ -1,5 +1,9 @@
-/**
- *
- * Created by 20189 on 2018/12/9.
- */
-
+$(function () {
+    /*1.引入*/
+    /*2.结构   data-stellar-background-ratio="0.3"  样式 bg 需要 background-attachment: fixed;*/
+    /*3.初始化插件-全局的方法*/
+    $.stellar({
+        horizontalScrolling: false,
+        responsive: true
+    });
+});
